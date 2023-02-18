@@ -1,10 +1,13 @@
+import Navbar from "./components/header";
+import Container from "./layouts/container/index";
 import El from "./library/EG";
 
 const App = () => {
-  return (El({
-    element: 'h1',
-    child: "Hello"
-  }));
+  const app = El({
+    element: 'div',
+    child:[Container(Navbar())]
+  })
+  return app;
 }
 
-export default App
+export default App;
