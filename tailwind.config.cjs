@@ -6,7 +6,11 @@ module.exports = {
     "./src/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'vazir': ['vazir', 'sans'],
+      },
+    },
   },
   plugins: [],
 }

@@ -3,7 +3,7 @@ import El from "../../library/EG";
 const Navbar = () => {
     return (El({
         element: 'div',
-        className: 'bg-gray-100 p-2 h-18 flex items-center justify-between',
+        className: 'bg-gray-100 p-1 h-18 flex items-center justify-between',
         child: [
             El({
                 element: 'div',

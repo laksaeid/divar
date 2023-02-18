@@ -1,10 +1,10 @@
 import El from "../../library/EG";
-import NewFilter from "./FilterMaker";
+import NewFilter from "../../library/FilterMaker";
 const Filters = () => {
   return El({
     element: "div",
-    className:
-      "filters h-14 px-3 border-t-2 gap-3 overflow-x-scroll border-b-2 flex items-center ",
+    className: 
+      "filters bg-white fixed mt-16 h-14 z-20 px-3 border-t-2 gap-3 overflow-x-scroll w-screen border-b-2 flex items-center ",
     child: [
       NewFilter('فیلتر‌ها', 'options-outline'),
       NewFilter('دسته‌ها', 'list-outline'),
