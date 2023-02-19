@@ -2,7 +2,7 @@ import "./src/styles/index.css"
 import App from './src/App';
 const root = document.getElementById("app");
 
-
+root.append(App());
 
 // const h1 = El({
 //   element: "h1",
@@ -24,4 +24,4 @@ const root = document.getElementById("app");
 //   ],
 // });
 
-root.append(App());
+

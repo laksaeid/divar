@@ -5,7 +5,7 @@ import El from "../../library/EG";
 const Cards = () => {
   return (El({
     element: 'div',
-    className:'cards bg-white pb-24 mt-32 flex flex-col gap-5',
+    className:'cards col-start-2 col-span-3 bg-white pb-24 mt-32 flex flex-col gap-5 lg:mt-20 lg:w-full',
     child: [
       El({
         element: 'p',

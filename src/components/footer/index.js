@@ -4,7 +4,7 @@ const Footer = () => {
   return El({
     element: "div",
     className:'flex ',
-    className: "flex h-20 bg-white w-full bottom-0 fixed",
+    className: "flex h-16 border-t bg-white w-full bottom-0 fixed",
     child: [
       El({
         element: "div",
@@ -12,7 +12,7 @@ const Footer = () => {
         child:[
           El({
             element: "img",
-            className:'w-7 cursor-pointer',
+            className: 'w-7 cursor-pointer',
             src: "./src/assets/img/download.svg",
           }),
           El({

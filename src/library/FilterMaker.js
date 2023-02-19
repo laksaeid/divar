@@ -33,13 +33,3 @@ child: El({
  
 export default NewFilter;
 
-// return (El({
-//   element: "div",
-// className:
-//   "flex border p-1 opacity-50 rounded-full justify-center items-center",
-// child: El({
-//   element: "p",
-//   className: "mb-[2px] truncate",
-//   child: mtn,
-// })
-// }) );
