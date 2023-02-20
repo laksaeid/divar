@@ -4,7 +4,7 @@ const Footer = () => {
   return El({
     element: "div",
     className:'flex ',
-    className: "flex h-16 border-t bg-white w-full bottom-0 fixed",
+    className: "flex h-16 border-t bg-white w-full bottom-0 fixed lg:hidden",
     child: [
       El({
         element: "div",

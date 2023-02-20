@@ -3,7 +3,7 @@ import El from "./EG";
 const CardMaker = (varients) => {
   return El({
     element: "div",
-    className: "p-3 border h-[150px] md:w-[49%] xl:w-[32%] flex justify-between",
+    className: "p-3 border h-[150px] md:w-[49%] xl:w-[32%] flex justify-between rounded-[4px]",
     child: [
       El({
         element: "div",
@@ -45,7 +45,7 @@ const CardMaker = (varients) => {
           }),
           El({
             element: "img",
-            className:'h-full w-full cursor-pointer',
+            className:'h-full w-full cursor-pointer rounded-md',
             src: varients.img,
           }),
         ],

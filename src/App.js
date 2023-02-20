@@ -11,7 +11,7 @@ import El from "./library/EG";
 const App = () => {
   const app = El({
     element: 'div',
-    className: 'grid grid-col-2',
+    className: 'h-screen',
     child:[Header(Navbar()),Filters(),Container(Main(Cards(),Sidebar())),Footer()]
   })
   const width = document.body.clientWidth;

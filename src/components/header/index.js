@@ -8,7 +8,7 @@ const styles = {
 const Navbar = () => {
   return El({
     element: "div",
-    className: "lg:flex justify-between w-full lg:max-w-7xl lg:px-5 mx-auto",
+    className: "lg:flex justify-between w-full lg:max-w-7xl lg:px-3 mx-auto",
     child: [
         El({
             element: "div",
