@@ -19,7 +19,7 @@ const Anchor = () => {
       element: "li",
       child: El({
         element: "a",
-        className: "flex gap-2 items-center w-max opacity-80 hover:opacity-100 transition duration-300 cursor-pointer" ,
+        className: "flex gap-2 items-center w-max opacity-60 hover:opacity-100 transition duration-300 cursor-pointer" ,
         child: [
           El({
             element: "ion-icon",

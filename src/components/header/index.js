@@ -31,11 +31,12 @@ const Navbar = () => {
               }),
               BtnMaker("دسته ها", undefined, styles.noBg),
               El({
-                className: "bg-gray-100 p-1 h-18 flex justify-between lg:w-96",
+                element: "div",
+                className: "bg-gray-100 p-1 h-18 flex justify-between lg:w-96 px-2",
                 child: [
                   El({
                     element: "div",
-                    className: "flex items-center gap-3",
+                    className: "flex items-center w-full gap-3",
                     child: [
                       El({
                         element: "ion-icon",
@@ -45,7 +46,7 @@ const Navbar = () => {
                       El({
                         element: "input",
                         placeholder: "جست و جو در همه آگهی ها",
-                        className: "bg-inherit outline-0",
+                        className: "bg-inherit outline-0 flex-grow",
                       }),
                     ],
                   }),
